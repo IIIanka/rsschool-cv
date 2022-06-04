@@ -8,6 +8,10 @@
 - **Tel:** +79602481234
 ---
 ## About Me ##
----
-Study in **RSSchool** JS / FRONT-END. STAGE 0 (RU)
 
+###### Study in **RSSchool** JS / FRONT-END. STAGE 0 (RU) ######
+---
+## Language #
+- **Russian** (native)
+- **English** B1
+- ---
