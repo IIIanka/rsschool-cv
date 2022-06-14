@@ -1,0 +1,119 @@
+@font-face {
+  font-family: 'Dosis';
+  src: url("../assets/fonts/Dosis-Light.ttf");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'Dosis';
+  src: url("../assets/fonts/Dosis-SemiBold.ttf");
+  font-weight: 600;
+}
+
+@media (max-width: 768px) {
+  .section {
+    width: 100%;
+  }
+}
+
+body {
+  font-family: 'Dosis';
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 1.5;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+a :visited {
+  text-decoration: none;
+  color: #000;
+}
+
+a :active {
+  text-decoration: none;
+  color: #000;
+}
+
+
+
+.main {
+  margin-bottom: auto;
+
+}
+
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.section {
+  width: 50%;
+  padding: 20px;
+}
+
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  color: #000;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
+}
+
+.nav-link {
+  padding: 0 20px;
+  line-height: 50px;
+  transition: .3c;
+}
+
+.rss {
+  width: 121px;
+  height: 45px;
+  background-image: url("../assets/svg/rs_school_js.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.foto {
+  border-radius: 50%;
+}
+
+.github-link {
+  position: relative;
+  padding: 0 12px;
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 50px;
+  color: #000;
+}
